@@ -5,8 +5,8 @@ A pb33f fork of [santhosh-tekuri/jsonschema](https://github.com/santhosh-tekuri/
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GoDoc](https://godoc.org/github.com/pb33f/jsonschema?status.svg)](https://pkg.go.dev/github.com/pb33f/jsonschema/v6)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pb33f/jsonschema/v6)](https://goreportcard.com/report/github.com/pb33f/jsonschema/v6)
-[![Build Status](https://github.com/pb33f/jsonschema/actions/workflows/go.yaml/badge.svg?branch=boon)](https://github.com/pb33f/jsonschema/actions/workflows/go.yaml)
-[![codecov](https://codecov.io/gh/pb33f/jsonschema/branch/boon/graph/badge.svg)](https://codecov.io/gh/pb33f/jsonschema/tree/boon)
+[![Build Status](https://github.com/pb33f/jsonschema/actions/workflows/go.yaml/badge.svg?branch=main)](https://github.com/pb33f/jsonschema/actions/workflows/go.yaml)
+[![codecov](https://codecov.io/gh/pb33f/jsonschema/branch/main/graph/badge.svg)](https://codecov.io/gh/pb33f/jsonschema/tree/main)
 
 see [godoc](https://pkg.go.dev/github.com/pb33f/jsonschema/v6) for examples
 
