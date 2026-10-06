@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/santhosh-tekuri/jsonschema/v6/kind"
+	"github.com/pb33f/jsonschema/v6/kind"
 	"golang.org/x/text/message"
 )
 

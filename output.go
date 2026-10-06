@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/santhosh-tekuri/jsonschema/v6/kind"
+	"github.com/pb33f/jsonschema/v6/kind"
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 )
@@ -194,10 +194,13 @@ func (e *ValidationError) output(flatten, inRef bool, schemaURL, kwLoc string, p
 	}
 	for _, cause := range e.Causes {
 		causeOut := cause.output(flatten, inRef, schemaURL, kwLoc, p)
-		if cause.skip() {
-			causeOut = causeOut.Errors[0]
-		}
 		if flatten {
+			if cause.skip() {
+				// The reference wrapper is omitted, but all flattened child
+				// errors retain their own kinds and locations.
+				out.Errors = append(out.Errors, causeOut.Errors...)
+				continue
+			}
 			errors := causeOut.Errors
 			causeOut.Errors = nil
 			causeOut.Error = &OutputError{cause.ErrorKind, p}
@@ -206,6 +209,9 @@ func (e *ValidationError) output(flatten, inRef bool, schemaURL, kwLoc string, p
 				out.Errors = append(out.Errors, errors...)
 			}
 		} else {
+			if cause.skip() {
+				causeOut = causeOut.Errors[0]
+			}
 			out.Errors = append(out.Errors, causeOut)
 		}
 	}

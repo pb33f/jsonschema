@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/santhosh-tekuri/jsonschema/v6"
+	"github.com/pb33f/jsonschema/v6"
 	"golang.org/x/text/message"
 )
 

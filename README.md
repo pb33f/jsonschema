@@ -1,12 +1,14 @@
-# jsonschema v6.0.2
+# jsonschema
+
+A pb33f fork of [santhosh-tekuri/jsonschema](https://github.com/santhosh-tekuri/jsonschema), based on v6.0.3. The upstream Apache 2.0 license is retained.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![GoDoc](https://godoc.org/github.com/santhosh-tekuri/jsonschema?status.svg)](https://pkg.go.dev/github.com/santhosh-tekuri/jsonschema/v6)
-[![Go Report Card](https://goreportcard.com/badge/github.com/santhosh-tekuri/jsonschema/v6)](https://goreportcard.com/report/github.com/santhosh-tekuri/jsonschema/v6)
-[![Build Status](https://github.com/santhosh-tekuri/jsonschema/actions/workflows/go.yaml/badge.svg?branch=boon)](https://github.com/santhosh-tekuri/jsonschema/actions/workflows/go.yaml)
-[![codecov](https://codecov.io/gh/santhosh-tekuri/jsonschema/branch/boon/graph/badge.svg?token=JMVj1pFT2l)](https://codecov.io/gh/santhosh-tekuri/jsonschema/tree/boon)
+[![GoDoc](https://godoc.org/github.com/pb33f/jsonschema?status.svg)](https://pkg.go.dev/github.com/pb33f/jsonschema/v6)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pb33f/jsonschema/v6)](https://goreportcard.com/report/github.com/pb33f/jsonschema/v6)
+[![Build Status](https://github.com/pb33f/jsonschema/actions/workflows/go.yaml/badge.svg?branch=boon)](https://github.com/pb33f/jsonschema/actions/workflows/go.yaml)
+[![codecov](https://codecov.io/gh/pb33f/jsonschema/branch/boon/graph/badge.svg)](https://codecov.io/gh/pb33f/jsonschema/tree/boon)
 
-see [godoc](https://pkg.go.dev/github.com/santhosh-tekuri/jsonschema/v6) for examples
+see [godoc](https://pkg.go.dev/github.com/pb33f/jsonschema/v6) for examples
 
 ## Library Features
 
@@ -58,7 +60,7 @@ see [godoc](https://pkg.go.dev/github.com/santhosh-tekuri/jsonschema/v6) for exa
 
 ## CLI v0.7.0
 
-to install: `go install github.com/santhosh-tekuri/jsonschema/cmd/jv@latest`
+to install: `go install github.com/pb33f/jsonschema/cmd/jv@latest`
 
 Note that the cli is versioned independently. you can see it in git tags `cmd/jv/v0.7.0`
 
