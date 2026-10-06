@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/santhosh-tekuri/jsonschema/v6"
+	"github.com/pb33f/jsonschema/v6"
 	"gopkg.in/yaml.v3"
 )
 
